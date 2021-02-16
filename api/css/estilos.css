@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+html, body {
+    height: 100%;
+}
+
+/*body{
+    background-image:url("img/fondo2.jpg");
+}*/
+table{
+    opacity: 0.90;
+    background-color: white;
+}
+#app {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 50px 1fr 100px;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: #fefefe;
+}
+
+
+#footer p {
+    margin: 0;
+}
+.flex-container {
+    display: flex;
+    background-color: #f1f1f1;
+}
+
+.flex-container > div {
+    background-color: DodgerBlue;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.table-striped .table-bordered{
+    border-radius: 2%;
+}
+.opacidad{
+    opacity:10%;
+}
+.strong{
+    font-weight: bold;
+}
+
+p, h1, h2, h3, h4{
+    font-family: 'Roboto', sans-serif;
+}
+
+.sombra{
+    box-shadow: 2px 2px 5px #999;
+}
+.imagen{
+    display: flex;
+}
+.imagen img{
+    margin: auto;
+    width: 25%;
+
+}
+
+.btn-edit-usu a{
+    color: lightgrey;
+}
+
+.img-msg img{
+    width: 50px;
+}
+.divImagen{
+    width: 150px;
+}
+
+.contDivImg{
+    width: 150px;
+}
+
+nav ul li{
+    width: 200px;
+    border-left: 1px solid white;
+}
+nav ul{
+    list-style: none;
+    padding: 0px; /*elimino la sangria de los niveles*/
+}
+nav li{
+    line-height: 2rem;
+    position: relative;
+}
+nav li ul {
+    position: absolute;
+}
+
+nav a {
+    text-decoration: none;
+    color:#ddd;
+    display: block;
+    padding: 0 2.5em;
+
+}
+
+/*primer nivel*/
+nav ul>li{
+    text-align: center;
+
+}
+nav>ul {
+    background-color: #333;
+    width: 100%;
+}
+
+nav li li{
+    width: 200px;
+    max-height: 0;
+    overflow: hidden;
+}
+
+nav li:hover >ul > li{
+    max-height: 300px;
+    margin-left: -8px;
+
+}
+.margin-top-0{
+    margin-top:0;
+}
+
+.padding-8{
+    padding: 8%;
+}
+
+nav li>ul>li>a:hover{
+    text-decoration: none;
+}
+
+nav ul>li>a:hover{
+    background-color: #5a6268;
+    color: cornflowerblue;
+}
+
+.boton {
+    background: #7abaff;
+    border-radius: 8%;
+    padding: 6px 20px;
+    position: relative;
+    left: -3px;
+}
+.boton a{
+    color: white;
+}
+.img-msg-gd img{
+        width: 30%;
+}
+.lg{
+    border-radius: 2%;
+    background: #3987db;
+    text-align: center;
+}
+.green{
+    background-color: #8fd19e;
+}
+
+.borde{
+    border: solid 1px whitesmoke;
+    background-color: #9fcdff;
+}
+
+.fondo-celeste{
+    background-color: cornflowerblue;
+}
+width{
+    width: 500px;
+}
+.padding{
+    padding: 12px;
+}
+
+.bg-left{
+    background-color: #d3d9df;
+}
+.bg-msg{
+    background-color: #bee5eb;
+}
+.bg-peces{
+    background-image: url("../../proyecto1/public/imgs/fondo-msg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    background: lightsteelblue;
+}
+
+.bg-msg{
+    background-color: aliceblue;
+}
+
+.white{
+    background-color: white;
+}
+.width-50{
+    width: 50px;
+}
+
+.box-sizing{
+    box-sizing: border-box;
+}
+.margin-top-20{
+    margin-top: 20px;
+}
+.margin-top-26{
+    margin-top: 26px;
+}
+.margin-top-70{
+    margin-top: 70px;
+}
+.darkgrey{
+    background-color: darkgrey;
+}
+
+.padding-20{
+    padding: 20%;
+}
+
+.gris-celeste{
+    background-color: #ebeef3;
+}
+
+.padding-top-1{
+    padding-top: 1%;
+}
+
+.mensajeFlotante{
+    position: absolute;
+    padding: 20px
+}

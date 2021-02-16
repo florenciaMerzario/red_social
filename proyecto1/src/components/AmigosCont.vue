@@ -1,0 +1,30 @@
+<template>
+  <table
+      class="table table-striped table-bordered mt-5"
+  >
+    <tbody>
+
+    <AmigosInt
+        v-for="amigo in amigos"
+        :key="amigo.id"
+        :amigo="amigo"
+    >
+    </AmigosInt>
+    </tbody>
+  </table>
+</template>
+
+<script>
+import AmigosInt from './AmigosInt';
+export default {
+  name: "AmigosCont",
+  components: {
+    AmigosInt
+  },
+  props: ['amigos'],
+}
+</script>
+
+<style>
+
+</style>

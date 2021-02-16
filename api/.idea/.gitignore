@@ -1,0 +1,10 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Project exclude paths
+/proyecto1/node_modules/
+# Datasource local storage ignored files
+/../../../../../:\xampp\htdocs\clientesFinal\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
